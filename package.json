@@ -1,0 +1,21 @@
+{
+  "name": "mre-wagmiv2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@tanstack/query-core": "^5.8.7",
+    "@wagmi/connectors": "4.0.0-beta.5",
+    "@wagmi/core": "2.0.0-beta.5",
+    "viem": "2.0.0-beta.6"
+  }
+}
